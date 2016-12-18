@@ -1,0 +1,13 @@
+.b-button {
+    color: white;
+    background: $g-main-color;
+    padding: 15px 30px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    @extend .transition;
+    &:hover {
+        background: lighten($g-main-color, 10);
+        @extend .transition-hover;
+    }
+}
